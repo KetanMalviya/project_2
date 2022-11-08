@@ -1,0 +1,153 @@
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7%;
+    font-size: 30px;
+}
+
+.heading span {
+    color: rgb(4, 149, 211);
+}
+
+.main_box {
+    background-color: #f7f7f7;
+
+}
+
+.fa-circle-plus {
+    background-color: rgb(240, 240, 248);
+    color: rgb(4, 149, 211);
+    font-size: 28px;
+}
+
+.add_new_btn {
+    padding: 2% 0%;
+    text-align: right;
+    width: 88%;
+    font-size: 25px;
+}
+
+.add_new_btn a{
+    text-decoration: none;
+}
+
+.grid_view {
+    width: 28%;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.grid_view:hover {
+    background-color: rgb(244, 242, 242);
+}
+
+.main_grid {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0 0 0px 6%;
+    width: 89%;
+}
+
+.grid_view h3 {
+    color: rgb(4, 149, 211);
+}
+
+.grid_view a {
+    text-decoration: none;
+}
+
+.main_grid_index1 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 0px 6%;
+    width: 89%;
+}
+
+.btn_group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.back_btn {
+    padding: 2% 0%;
+    text-align: left;
+    font-size: 25px;
+    width: 15%;
+    text-decoration: none;
+}
+
+.add_btn {
+    padding: 2% 0%;
+    float: right;
+    font-size: 25px;
+    width: 15%;
+    text-decoration: none;
+}
+.add_btn a {
+    text-decoration: none;
+}
+
+.back_btn a {
+    text-decoration: none;
+}
+
+.popup_window {
+    position: fixed;
+    top: 25%;
+    left: 33%;
+    right: 33%;
+    width: 25%;
+    height: 22%;
+    padding: 1%;
+    z-index: 3;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.popup_body {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.popup_window button {
+    width: 125px;
+    height: 35px;
+    background-color: #4a57f3;
+    color: white;
+    border-color: #4a57f3;
+    float: right;
+}
+
+.popup_window input {
+    height: 25px;
+    width: 100%;
+    background-color: #e7e3e3;
+    border: 1px solid #cdc5c5;
+    border-radius: 5px;
+}
+
+.fa-xmark {
+    float: right;
+}
+.add_new{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
